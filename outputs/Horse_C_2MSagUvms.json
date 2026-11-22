@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Horse_C_2MSagUvms",
+  "duration_sec": 165.35,
+  "label": {
+    "name": "horse",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        76.67,
+        88.67
+      ]
+    }
+  ]
+}

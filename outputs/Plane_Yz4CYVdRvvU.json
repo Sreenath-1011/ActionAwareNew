@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Plane_Yz4CYVdRvvU",
+  "duration_sec": 111.41,
+  "label": {
+    "name": "plane",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        49.7,
+        61.7
+      ]
+    }
+  ]
+}

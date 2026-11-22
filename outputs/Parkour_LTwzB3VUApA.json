@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Parkour_LTwzB3VUApA",
+  "duration_sec": 110.74,
+  "label": {
+    "name": "parkour",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        49.37,
+        61.37
+      ]
+    }
+  ]
+}

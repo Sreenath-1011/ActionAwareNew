@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / Models / Checkpoints
+weights/*.pth
+weights/*.pt
+*.pth
+*.pt
+.cache/
+
+# Large Video Files & Datasets
+data/videos/
+*.mp4
+*.MP4
+*.avi
+*.mkv
+*.mov
+
+# External / Cloned Helper Repositories
+epic-kitchens-download-scripts/
+
+# Environments & OS files
+.env
+.venv
+env/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp

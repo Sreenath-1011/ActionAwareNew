@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Bike_x76VEPXYaI0",
+  "duration_sec": 123.3,
+  "label": {
+    "name": "bike",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        55.65,
+        67.65
+      ]
+    }
+  ]
+}

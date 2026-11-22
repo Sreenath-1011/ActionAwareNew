@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "P15_06",
+  "duration_sec": 503.5,
+  "label": {
+    "name": "cooking",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        245.75,
+        257.75
+      ]
+    }
+  ]
+}

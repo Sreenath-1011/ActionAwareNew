@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Ski_UYmcm5bKvxk",
+  "duration_sec": 158.52,
+  "label": {
+    "name": "ski",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        73.26,
+        85.26
+      ]
+    }
+  ]
+}

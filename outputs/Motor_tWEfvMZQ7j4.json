@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Motor_tWEfvMZQ7j4",
+  "duration_sec": 202.64,
+  "label": {
+    "name": "motor",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        95.32,
+        107.32
+      ]
+    }
+  ]
+}

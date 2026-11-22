@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "BikePolo_ccTGFdD18SM_1",
+  "duration_sec": 250.66,
+  "label": {
+    "name": "bikepolo",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        119.33,
+        131.33
+      ]
+    }
+  ]
+}

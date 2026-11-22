@@ -1,0 +1,43 @@
+# ActionAware Configuration - Samsung XR Hackathon 2026, Track 04
+
+general:
+  team_id: "T07"
+  seed: 42
+  device: "auto"              # "auto", "cpu", or "cuda"
+
+video:
+  clip_frames: 16             # frames sampled per clip
+  clip_stride_sec: 2.0        # temporal stride between consecutive clip starts
+  frame_size: 224             # spatial resolution (height and width)
+  fps_fallback: 30.0
+
+model:
+  backbone: "s3d"             # "s3d", "r3d_18", "mvit_v2_s"
+  pretrained: true
+  weights_dir: "weights"
+  batch_size: 4
+
+action_recognition:
+  min_confidence: 0.05
+  nms_iou_threshold: 0.3
+  min_action_duration: 1.0    # seconds
+  max_actions_per_video: 200
+
+importance_scoring:
+  weight_confidence: 0.35
+  weight_novelty: 0.30
+  weight_duration: 0.15
+  weight_interaction: 0.20
+  idle_motion_threshold: 0.08 # optical flow / frame diff threshold for idle suppression
+
+highlight:
+  budget_ratio: 0.15          # strictly target <= 15% of original video duration
+  min_segment_sec: 4.0        # official rule: at least one segment >= 4.0s; < 4.0s ignored
+  max_segment_sec: 25.0
+  enforce_chronological: true
+  allow_overlap: false
+
+dataset:
+  manifest_path: "data/manifest.csv"
+  supported_classes_path: "data/supported_classes.json"
+  kinetics_mapping_path: "config/kinetics_to_epic.yaml"

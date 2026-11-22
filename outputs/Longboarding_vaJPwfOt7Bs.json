@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "Longboarding_vaJPwfOt7Bs",
+  "duration_sec": 202.76,
+  "label": {
+    "name": "longboarding",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        95.38,
+        107.38
+      ]
+    }
+  ]
+}

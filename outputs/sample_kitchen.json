@@ -1,0 +1,28 @@
+{
+  "team_id": "T07",
+  "video_id": "sample_kitchen",
+  "duration_sec": 30.0,
+  "label": {
+    "name": "jumping",
+    "score": 0.95
+  },
+  "actions": [
+    {
+      "segment": [
+        0.0,
+        29.0
+      ],
+      "verb": "other",
+      "noun": "other",
+      "score": 0.16
+    }
+  ],
+  "highlights": [
+    {
+      "segment": [
+        6.0,
+        10.5
+      ]
+    }
+  ]
+}

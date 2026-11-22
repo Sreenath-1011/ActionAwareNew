@@ -1,0 +1,18 @@
+{
+  "team_id": "T07",
+  "video_id": "RockClimbing_mDUcIkDzpVI",
+  "duration_sec": 377.07,
+  "label": {
+    "name": "rockclimbing",
+    "score": 0.9
+  },
+  "actions": [],
+  "highlights": [
+    {
+      "segment": [
+        182.53,
+        194.53
+      ]
+    }
+  ]
+}
